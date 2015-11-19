@@ -12,6 +12,7 @@
 		3FCFDF541BE9B7FC009DC56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFDF521BE9B7FC009DC56F /* Main.storyboard */; };
 		3FCFDF561BE9B7FC009DC56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFDF551BE9B7FC009DC56F /* Assets.xcassets */; };
 		3FCFDF591BE9B7FC009DC56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFDF571BE9B7FC009DC56F /* LaunchScreen.storyboard */; };
+		3FCFDF611BE9C163009DC56F /* AutolayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFDF601BE9C163009DC56F /* AutolayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3FCFDF551BE9B7FC009DC56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FCFDF581BE9B7FC009DC56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FCFDF5A1BE9B7FC009DC56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCFDF601BE9C163009DC56F /* AutolayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				3FCFDF4E1BE9B7FC009DC56F /* AppDelegate.swift */,
-				3FCFDF501BE9B7FC009DC56F /* ViewController.swift */,
+				3FCFDF601BE9C163009DC56F /* AutolayoutViewController.swift */,
 				3FCFDF521BE9B7FC009DC56F /* Main.storyboard */,
 				3FCFDF551BE9B7FC009DC56F /* Assets.xcassets */,
 				3FCFDF571BE9B7FC009DC56F /* LaunchScreen.storyboard */,
 				3FCFDF5A1BE9B7FC009DC56F /* Info.plist */,
+				3FCFDF501BE9B7FC009DC56F /* ViewController.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCFDF611BE9C163009DC56F /* AutolayoutViewController.swift in Sources */,
 				3FCFDF511BE9B7FC009DC56F /* ViewController.swift in Sources */,
 				3FCFDF4F1BE9B7FC009DC56F /* AppDelegate.swift in Sources */,
 			);
